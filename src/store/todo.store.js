@@ -18,7 +18,7 @@ const state = {
 };
 
 const initStore = () => {
-  console.log(state);
+  console.log(state); 
   console.log('InitStore');
 }
 
@@ -28,7 +28,7 @@ const loadStore = () => {
 
 /**
  * 
- * @param {String} filter 
+ * @param {Filters} filter 
  * @returns {Array<Todo>}
  */
 const getTodos = (filter = Filters.All) => {
